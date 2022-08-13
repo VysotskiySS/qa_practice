@@ -5,7 +5,7 @@ https://github.com/VysotskiySS/qa_practice/blob/main/sql-academy_question_55.sql
 
 ### Техники тестирования:
 
-- Эквивалентное разбитие (Equivalence partitioning)
+- Классы эквивалентности (Equivalence partitioning)
 - Анализ граничных значений (Boundary value analysis)
 - Анализ доменов (Domain analysis)
 - [Тестирование всех пар (All pairs testing, Pairwise)](https://docs.google.com/spreadsheets/d/1roIUdcLnKAZIV4Gi2a0z1GFHPg-07Inu6JSKM31-hL0/edit?usp=sharing)
