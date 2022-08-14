@@ -1,4 +1,6 @@
-
+Удалить компании, совершившие наименьшее количество рейсов.
+![55](https://user-images.githubusercontent.com/109433447/184479525-db8d7888-0516-4828-a5ad-63c7812046d5.PNG)
+*/
 
 ``` sql
 DELETE Company 
