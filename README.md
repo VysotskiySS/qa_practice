@@ -1,7 +1,7 @@
 # qa_practice
 
 ### SQL
-https://github.com/VysotskiySS/qa_practice/blob/main/sql-academy_question_55.sql
+https://github.com/VysotskiySS/qa_practice/blob/main/sql.md
 
 ### Техники тестирования:
 
