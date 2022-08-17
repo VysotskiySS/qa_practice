@@ -1,7 +1,8 @@
-- Найдите максимальный возраст (колич. лет) среди обучающихся 10 классов?
-  
-![44](https://user-images.githubusercontent.com/109433447/185190292-024dd410-703c-4025-a9c2-941b437b4fd2.PNG)
 
+![44](https://user-images.githubusercontent.com/109433447/185190292-024dd410-703c-4025-a9c2-941b437b4fd2.PNG)
+  
+- Найдите максимальный возраст (колич. лет) среди обучающихся 10 классов?
+- 
 ``` sql
 SELECT MAX(FLOOR(DATEDIFF(CURDATE(), birthday)/365)) AS max_year
 FROM Student INNER JOIN Student_in_class
