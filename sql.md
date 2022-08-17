@@ -1,3 +1,16 @@
+- Найдите максимальный возраст (колич. лет) среди обучающихся 10 классов?
+  
+![44](https://user-images.githubusercontent.com/109433447/185190292-024dd410-703c-4025-a9c2-941b437b4fd2.PNG)
+
+``` sql
+SELECT MAX(FLOOR(DATEDIFF(CURDATE(), birthday)/365)) AS max_year
+FROM Student INNER JOIN Student_in_class
+ON Student.id = Student_in_class.student
+	INNER JOIN Class
+	ON Student_in_class.class = Class.id
+WHERE name LIKE '10 %';
+```
+
 - Удалить компании, совершившие наименьшее количество рейсов.
   
 ![55](https://user-images.githubusercontent.com/109433447/184479525-db8d7888-0516-4828-a5ad-63c7812046d5.PNG)
