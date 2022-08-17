@@ -2,7 +2,7 @@
 ![44](https://user-images.githubusercontent.com/109433447/185190292-024dd410-703c-4025-a9c2-941b437b4fd2.PNG)
   
 - Найдите максимальный возраст (колич. лет) среди обучающихся 10 классов?
-- 
+  
 ``` sql
 SELECT MAX(FLOOR(DATEDIFF(CURDATE(), birthday)/365)) AS max_year
 FROM Student INNER JOIN Student_in_class
@@ -41,11 +41,10 @@ JOIN Subject
 WHERE Subject.name = 'Physical Culture'
 ORDER BY last_name
 ```
-
-- Удалить компании, совершившие наименьшее количество рейсов.
-  
+ 
 ![55](https://user-images.githubusercontent.com/109433447/184479525-db8d7888-0516-4828-a5ad-63c7812046d5.PNG)
-
+  
+- Удалить компании, совершившие наименьшее количество рейсов.
 ``` sql
 DELETE Company 
 FROM Company INNER JOIN (
