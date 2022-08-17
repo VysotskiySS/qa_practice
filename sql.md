@@ -10,6 +10,25 @@ ON Student.id = Student_in_class.student
 	ON Student_in_class.class = Class.id
 WHERE name LIKE '10 %';
 ```
+- Какой(ие) кабинет(ы) пользуются самым большим спросом?
+  
+![45](https://user-images.githubusercontent.com/109433447/185191282-51035c62-38a6-4c1f-b9e0-993995f01a89.PNG)
+ 
+``` sql
+SELECT classroom 
+FROM Schedule
+GROUP BY classroom 
+HAVING COUNT(classroom) = (
+    SELECT MAX(count_pair)
+    FROM (
+        SELECT COUNT(id) AS count_pair
+        FROM Schedule
+        GROUP BY classroom
+    ) AS querry
+    
+);
+
+```
 
 - Удалить компании, совершившие наименьшее количество рейсов.
   
