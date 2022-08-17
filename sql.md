@@ -1,6 +1,5 @@
 Удалить компании, совершившие наименьшее количество рейсов.
 ![55](https://user-images.githubusercontent.com/109433447/184479525-db8d7888-0516-4828-a5ad-63c7812046d5.PNG)
-*/
 
 ``` sql
 DELETE Company 
@@ -20,4 +19,17 @@ FROM Company INNER JOIN (
 			ON Company.id = Query.company) AS Query_2
 		)) AS Query_3
 	ON Company.name = Query_3.name	
+```
+
+
+Выведите фамилии преподавателей, которые ведут физическую культуру (Physical Culture). Отcортируйте преподавателей по фамилии.
+![43](https://user-images.githubusercontent.com/109433447/185188576-ad7d84c4-3d94-4d89-8a35-a3a30180f4db.PNG)
+``` sql
+SELECT last_name 
+FROM Teacher JOIN Schedule 
+	ON Teacher.id = Schedule.teacher 
+JOIN Subject 
+	ON Schedule.subject = Subject.id
+WHERE Subject.name = 'Physical Culture'
+ORDER BY last_name
 ```
