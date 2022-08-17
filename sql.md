@@ -12,7 +12,6 @@ WHERE name LIKE '10 %';
 ```
 - Какой(ие) кабинет(ы) пользуются самым большим спросом?
   
-![45](https://user-images.githubusercontent.com/109433447/185191282-51035c62-38a6-4c1f-b9e0-993995f01a89.PNG)
  
 ``` sql
 SELECT classroom 
@@ -28,6 +27,18 @@ HAVING COUNT(classroom) = (
     
 );
 
+```
+
+- Выведите фамилии преподавателей, которые ведут физическую культуру (Physical Culture). Отcортируйте преподавателей по фамилии.
+  
+``` sql
+SELECT last_name 
+FROM Teacher JOIN Schedule 
+	ON Teacher.id = Schedule.teacher 
+JOIN Subject 
+	ON Schedule.subject = Subject.id
+WHERE Subject.name = 'Physical Culture'
+ORDER BY last_name
 ```
 
 - Удалить компании, совершившие наименьшее количество рейсов.
@@ -52,18 +63,4 @@ FROM Company INNER JOIN (
 			ON Company.id = Query.company) AS Query_2
 		)) AS Query_3
 	ON Company.name = Query_3.name	
-```
-
-
-- Выведите фамилии преподавателей, которые ведут физическую культуру (Physical Culture). Отcортируйте преподавателей по фамилии.
-  
-![43](https://user-images.githubusercontent.com/109433447/185188576-ad7d84c4-3d94-4d89-8a35-a3a30180f4db.PNG)
-``` sql
-SELECT last_name 
-FROM Teacher JOIN Schedule 
-	ON Teacher.id = Schedule.teacher 
-JOIN Subject 
-	ON Schedule.subject = Subject.id
-WHERE Subject.name = 'Physical Culture'
-ORDER BY last_name
 ```
