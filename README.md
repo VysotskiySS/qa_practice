@@ -15,3 +15,4 @@ https://github.com/VysotskiySS/qa_practice/blob/main/sql.md
 ### Документация и тестовые задания
 
 - [ОТЧЕТ ПО РЕЗУЛЬТАТАМ ТЕСТИРОВАНИЯ DESKTOP приложения NetChat](https://docs.google.com/document/d/1xB5IygDAa0F_gtU8g3FcIxJPHOatWwMtXQ84poae2Rg/edit?usp=sharing)
+- [Bug report (simple)](https://docs.google.com/document/d/1SZvmPf-HZz4a2lBYPMwap9vHOt_V75DdKfU57yz-D_E/edit?usp=sharing)
