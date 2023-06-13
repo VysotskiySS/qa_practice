@@ -31,21 +31,7 @@ curl http://162.55.220.72:5005/
 
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
 
-cd c:/Users/GWs/l1
-
-mkdir p1 p2 p3
-
-cd p1
-
-touch t1.txt t2.txt t3.txt j1.json j2.json
-
-mkdir d1 d2 d3
-
-ls
-
-mv p1/t2.txt p2/
-
-mv p1/j2.json p2/
+[Скрипт](https://github.com/VysotskiySS/qa_practice/blob/main/s1.sh)
 
 =====================
 
