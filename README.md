@@ -3,6 +3,7 @@
 *некоторые документы находятся в процессе написания и оформления т.е. не являются законченными.
 
 ### Linux terminal (GitBash) commands
+
   
 ### SQL
 https://github.com/VysotskiySS/qa_practice/blob/main/sql.md
@@ -20,3 +21,4 @@ https://github.com/VysotskiySS/qa_practice/blob/main/sql.md
 - [Документация по тестированию сайта https://tritonshoes.ru](https://docs.google.com/spreadsheets/d/1hGRc5q4JHvhXuIgOJLV60VuClEbFw8xKAK1CIfRT05s/edit?usp=sharing)
 - [Bug report (simple)](https://docs.google.com/document/d/1SZvmPf-HZz4a2lBYPMwap9vHOt_V75DdKfU57yz-D_E/edit?usp=sharing)
 - [Решенные тестовые задания](https://github.com/VysotskiySS/qa_practice/blob/main/test_task.md)
+- [Практика и задания с курса Вадима Ксендзова](https://github.com/VysotskiySS/qa_practice/blob/main/test_task.md)
