@@ -20,3 +20,4 @@ https://github.com/VysotskiySS/qa_practice/blob/main/sql.md
 - [Решенные тестовые задания](https://github.com/VysotskiySS/qa_practice/blob/main/test_task.md)
 
 ### Практика и задания с курса Вадима Ксендзова
+- [Linux terminal (GitBash) commands](https://github.com/VysotskiySS/qa_practice/blob/main/test_task.md)
