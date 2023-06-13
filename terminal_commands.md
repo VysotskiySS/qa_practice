@@ -1,4 +1,4 @@
-###Linux terminal (GitBash) commands
+### Linux terminal (GitBash) commands
 
 1) Посмотреть где я
 2) Создать папку
