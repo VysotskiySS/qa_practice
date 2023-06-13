@@ -1,6 +1,8 @@
 # qa_practice
   
 *некоторые документы находятся в процессе написания и оформления т.е. не являются законченными.
+
+### Linux terminal (GitBash) commands
   
 ### SQL
 https://github.com/VysotskiySS/qa_practice/blob/main/sql.md
