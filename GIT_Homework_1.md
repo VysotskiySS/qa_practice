@@ -19,11 +19,11 @@ git config --global user.email idgwynbleidd@gmail.com
 
 JSON
  4. Создать внешний репозиторий c названием JSON.
- 5. 
-github.com - repositories - New - Repository name JSON - Add a README file - Create repository
+
+github.com -> repositories -> New -> Repository name JSON -> Add a README file -> Create repository
 
  5. Клонировать репозиторий JSON на локальный компьютер.
- 6. 
+
 git clone https://github.com/VysotskiySS/JSON
 
  6. Внутри локального JSON создать файл “new.json”.
@@ -80,7 +80,7 @@ git push
 
  16. На веб интерфейсе создать файл bug_report.json.
 
-repositories - JSON - Add file - Create new file - name new file - bug_report.json - Commit changes
+repositories - JSON -> Add file -> Create new file -> name new file -> bug_report.json -> Commit changes
 
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 
