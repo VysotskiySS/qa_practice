@@ -37,8 +37,9 @@ git commit -m "new.json add"
 git push
 *авторизация через код или браузер
 
- 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
-nano new.json
+<details><summary> 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+nano [new.json](https://github.com/VysotskiySS/JSON/blob/main/new.json)</summary>
+
 
 {
         "Family":"Vysotskiy S.S.",
@@ -46,6 +47,7 @@ nano new.json
         "Count home pets":1,
         "Salary":60000
 }
+</details>
 
  11. Отправить изменения на внешний репозиторий.
 git commit -m "change new.json"
