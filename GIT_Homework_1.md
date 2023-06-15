@@ -1,4 +1,4 @@
-### GIT Homework 1
+## GIT Homework 1
 
 Для выполнения задания у вас должен быть установлен для Windows - GitBash.
 Создан аккаунт в GitHub
@@ -17,7 +17,8 @@ git config --global user.name "VysotskiySS"
 git config --global user.email idgwynbleidd@gmail.com
 
 
-JSON
+### JSON
+
  4. Создать внешний репозиторий c названием JSON.
 
 github.com -> repositories -> New -> Repository name JSON -> Add a README file -> Create repository
