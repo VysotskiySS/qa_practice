@@ -21,3 +21,4 @@ https://github.com/VysotskiySS/qa_practice/blob/main/sql.md
 
 ### Практика и задания с курса Вадима Ксендзова
 - [Linux terminal (GitBash) commands](https://github.com/VysotskiySS/qa_practice/blob/main/terminal_commands.md)
+- [GIT_Homework_1](https://github.com/VysotskiySS/qa_practice/blob/main/GIT_Homework_1.md)
