@@ -20,109 +20,66 @@ git config --global user.email idgwynbleidd@gmail.com
  1. Создать внешний репозиторий c названием TXT.
 github.com - repositories - New - Repository name TXT - Add a README file - Create repository
  2. Клонировать репозиторий TXT на локальный компьютер.
- 3. Внутри локального TXT создать файл “new.txt”.
+
+ git clone https://github.com/VysotskiySS/JSON
+
+ 4. Внутри локального TXT создать файл “new.txt”.
+
 cd TXT
+
 touch new.txt
 
- 4. Добавить файл под гит.
+ 5. Добавить файл под гит.
+
 git add new.txt
 
- 5. Закоммитить файл.
+ 6. Закоммитить файл.
+
 git commit -m "comment"
 
- 6. Отправить файл на внешний GitHub репозиторий.
+ 7. Отправить файл на внешний GitHub репозиторий.
+
 git push
 
- 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
-nano new.txt
+ 8. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
 
-full name: Vysotskiy Sergey Sergeevich
-age: 32
-count home pets: 1
-salary: 60000
+nano [new.txt](https://github.com/VysotskiySS/TXT/blob/main/new.txt "открыть new.txt")
 
  8. Отправить изменения на внешний репозиторий.
+
 git commit -am "change file new.txt" && git push
 
  9. Создать файл preferences.txt
-nano preferences.txt
+
+nano [preferences.txt](https://github.com/VysotskiySS/TXT/blob/main/preferences.txt "открыть preferences.txt")
+
  10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
 
-film: Bicentennial Man
-serial: Stargate SG-1
-food: Khachapuri
-season: Summer
-side of the world: East Asia
-
  11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
-nano skills.txt
 
-1. Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC.
-2. Что такое клиент-серверная архитектура.
-3. HTTP Методы запросов на сервер.
-4. Коды ответов HTTP сервера.
-5. Структуры HTTP запросов и ответов.
-6. Что такое JSON, XML. Их структура.
-7. Тестирование API через Postman (JS, автотесты API).
-8. Снятие и чтение логов c внешнего сервера.
-9. Снифинг http web трафика через Charles и Fiddler.
-10. Dev Tools веб браузеров (Google Chrome, FireFox).
-11. VPN. (Как работает, зачем нужен, как использовать, варианты инструментов)
-12. Мобильное тестирование.
-13. Особенность iOS, Android, гайдлайны.
-14. Сборка iOS приложений на XCode. (У кого нет Mac компьютера, просто посмотрят)
-15. Сборка Android приложений на Android Studio.
-16. ADB (управление андройд девайсами).
-17. Настройка прокси и vpn на iOS и Android.
-18. Перехват (сниффинг) мобильного трафика через Charles и Fiddler на iOS и Android.
-19. Командная строка (terminal) Linux (копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса)
-20. Основы bash скриптинг, автоматизация рутинных задач на сервере.
-21. Доступ к удалённым серверам.
-22. Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join).
-23. База данных Postgres (установка, настройка и использование).
-24. Нереляционная база данных Redis (установка, настройка и использование).
-25. Нагрузочное тестирование в Jmeter.
-26. Методология разработки Scrum.
-27. Техники тест-дизайна (Классы эквивалентности, граничные значения, комбинаторные техники (Попарный, ортогональный, базовый выбор, каждый выбор), состояния и переходы)
-28. Python. (Изучение основ. Создание клиент серверного приложения)
+nano [skills.txt](https://github.com/VysotskiySS/TXT/blob/main/skills.txt "открыть skills.txt")
 
  12. Сделать коммит в одну строку.
+
 git add . && git commit -m "comment"
 
  13. Отправить сразу 2 файла на внешний репозиторий.
+
 git push
 
  14. На веб интерфейсе создать файл bug_report.txt.
-repositories - TXT - Add file - Create new file - name new file - bug_report.txt - Commit changes
+
+repositories -> TXT -> Add file -> Create new file -> name new file -> bug_report.txt -> Commit changes
 
  15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
 Commit changes
 
  16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
 
-id - PR1-B1
-Summary - Кнопка “Оформить заказ” не реагирует на клик на странице оформления заказа.
-Project - Web site shop.com
-Version - 1.1
-Severity - Blocker
-Priority - ASAP
-Status - Open
-Author - Vysotskiy S
-Assigned To - Ivanov I
-Description:
-  Precondition:
-    1 - Зарегистрироваться на сайте shop.com
-    2 - Авторизоваться на сайте
-  Environment - MacOS BigSur v:11.2.3. Google Chrome v: 94.0.4606.71 (x86_64)
-  Steps_to_reproduce:
-    1 - Добавить товар в корзину
-    2 - Зайти в корзину
-    3 - Нажать на кнопку оформить заказ
-  Actual_result - Кнопка “Оформить заказ” не реагирует на клик.
-  Expected result - Пользователь перенаправляется на страницу оплаты (Биллинг)
-Attachment - https://drive.google.com/...
+TXT -> [bug_report.txt](https://github.com/VysotskiySS/TXT/blob/main/bug_report.txt "открыть bug_report.txt") -> Edit this file
 
- 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 18. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  
  19. Синхронизировать внешний и локальный репозиторий TXT
 
@@ -200,12 +157,87 @@ Commit changes
 
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
 
-[bug_report.json](https://github.com/VysotskiySS/JSON/blob/main/bug_report.json "открыть bug_report.json") - Edit this file
+JSON -> [bug_report.json](https://github.com/VysotskiySS/JSON/blob/main/bug_report.json "открыть bug_report.json") -> Edit this file
 
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 
 Commit changes
 
  20. Синхронизировать внешний и локальный репозиторий JSON
+
+git pull
+
+### XML
+
+ 21. Создать внешний репозиторий c названием XML.
+ 22. Клонировать репозиторий XML на локальный компьютер.
+
+git clone https://github.com/VysotskiySS/XML
+
+ 23. Внутри локального XML создать файл “new.xml”.
+
+cd XML
+
+touch new.xml
+
+ 24. Добавить файл под гит.
+
+git add new.xml
+
+ 25. Закоммитить файл.
+
+git commit -m "new.xml add"
+
+ 26. Отправить файл на внешний GitHub репозиторий.
+
+git push
+
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+
+nano [new.xml](https://github.com/VysotskiySS/XML/blob/main/new.xml "открыть new.xml")
+
+ 28. Отправить изменения на внешний репозиторий.
+
+git commit -am "modified: new.xml"
+
+git push
+
+ 29. Создать файл preferences.xml
+
+touch preferences.xml
+
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+
+nano [preferences.xml](https://github.com/VysotskiySS/XML/blob/main/preferences.xml "открыть preferences.xml")
+
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+
+nano [skills.xml](https://github.com/VysotskiySS/XML/blob/main/skills.xml "открыть skills.xml")
+
+ 32. Сделать коммит в одну строку.
+
+git add . && git commit -m "comment"
+
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+
+git push
+
+ 34. На веб интерфейсе создать файл bug_report.xml.
+
+Add file -> Create new file -> Name: bug_report.xml
+
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+Commit New File
+
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+
+XML -> [bug_report.xml](https://github.com/VysotskiySS/XML/blob/main/bug_report.xml "открыть bug_report.xml") -> Edit this file
+
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+Commit changes
+
+ 38. Синхронизировать внешний и локальный репозиторий XML
 
 git pull
