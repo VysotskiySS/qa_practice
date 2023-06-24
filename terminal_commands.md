@@ -1,5 +1,6 @@
-### Linux terminal (GitBash) commands
-
+### Termial. HW_1
+|Вопрос|Ответ|
+|||
 1) Посмотреть где я - pwd
 2) Создать папку - mkdir l1
 3) Зайти в папку - cd l1
@@ -69,30 +70,34 @@ touch tf_1.txt
 - the second 2
 - the third 3
 
+```
 cat > tf_2.txt
 - the first 1
 - the second 2
 - the third 3
-
+```
  7. Зайти в папку inner_dir_1
 cd inner_dir_1
 
  8. Через cat сделать текстовый файл tf_3.txt  c любыми строками
+```
 cat > tf_3.txt
 one
 two
 free
 four
 five
-
+```
  9. Через cat добавить в текстовый файл tf_3.txt строку “the second 2”
+```
 cat >> tf_3.txt
 the second 2
-
+```
  10. Через cat добавить в текстовый файл tf_3.txt строку “the sec 2”
+```
 cat >> tf_3.txt
 the sec 2
-
+```
  11. Через cat добавить в текстовый файл tf_2.txt строку “the sec 3”
 cat >> ../tf_2.txt
 the sec 3
