@@ -43,7 +43,7 @@ git push
 ```
  8. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
 
-nano [new.txt](https://github.com/VysotskiySS/TXT/blob/main/new.txt "открыть new.txt")
+`nano` [new.txt](https://github.com/VysotskiySS/TXT/blob/main/new.txt "открыть new.txt")
 
  8. Отправить изменения на внешний репозиторий.
 ```
@@ -51,13 +51,13 @@ git commit -am "change file new.txt" && git push
 ```
  9. Создать файл preferences.txt
 
-nano [preferences.txt](https://github.com/VysotskiySS/TXT/blob/main/preferences.txt "открыть preferences.txt")
+`nano` [preferences.txt](https://github.com/VysotskiySS/TXT/blob/main/preferences.txt "открыть preferences.txt")
 
  10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
 
  11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
 
-nano [skills.txt](https://github.com/VysotskiySS/TXT/blob/main/skills.txt "открыть skills.txt")
+`nano` [skills.txt](https://github.com/VysotskiySS/TXT/blob/main/skills.txt "открыть skills.txt")
 
  12. Сделать коммит в одну строку.
 ```
@@ -77,7 +77,7 @@ Commit changes
 ```
  16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
 
-TXT -> [bug_report.txt](https://github.com/VysotskiySS/TXT/blob/main/bug_report.txt "открыть bug_report.txt") -> Edit this file
+`TXT ->` [bug_report.txt](https://github.com/VysotskiySS/TXT/blob/main/bug_report.txt "открыть bug_report.txt") -> `Edit this file`
 
  18. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  
@@ -116,7 +116,7 @@ git push
 
 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
 
-nano [new.json](https://github.com/VysotskiySS/JSON/blob/main/new.json "открыть new.json")
+`nano` [new.json](https://github.com/VysotskiySS/JSON/blob/main/new.json "открыть new.json")
 
  11. Отправить изменения на внешний репозиторий.
 ```
@@ -129,12 +129,12 @@ touch preferences.json
 ```
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
 
-nano [preferences.json](https://github.com/VysotskiySS/JSON/blob/main/preferences.json "открыть preferences.json")
+`nano` [preferences.json](https://github.com/VysotskiySS/JSON/blob/main/preferences.json "открыть preferences.json")
 
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
 
-touch skills.json
-nano [skills.json](https://github.com/VysotskiySS/JSON/blob/main/skills.json "открыть skills.json")
+`touch skills.json`
+`nano` [skills.json](https://github.com/VysotskiySS/JSON/blob/main/skills.json "открыть skills.json")
 
  15. Отправить сразу 2 файла на внешний репозиторий.
 ```
@@ -152,7 +152,7 @@ Commit changes
 ```
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
 
-JSON -> [bug_report.json](https://github.com/VysotskiySS/JSON/blob/main/bug_report.json "открыть bug_report.json") -> Edit this file
+`JSON ->` [bug_report.json](https://github.com/VysotskiySS/JSON/blob/main/bug_report.json "открыть bug_report.json") `-> Edit this file`
 
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 ```
@@ -188,7 +188,7 @@ git push
 ```
  27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
 
-nano [new.xml](https://github.com/VysotskiySS/XML/blob/main/new.xml "открыть new.xml")
+`nano` [new.xml](https://github.com/VysotskiySS/XML/blob/main/new.xml "открыть new.xml")
 
  28. Отправить изменения на внешний репозиторий.
 ```
@@ -201,7 +201,7 @@ touch preferences.xml
 ```
  30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
 
-nano [preferences.xml](https://github.com/VysotskiySS/XML/blob/main/preferences.xml "открыть preferences.xml")
+`nano` [preferences.xml](https://github.com/VysotskiySS/XML/blob/main/preferences.xml "открыть preferences.xml")
 
  31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
 ```
@@ -225,7 +225,7 @@ Commit New File
 ```
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
 
-XML -> [bug_report.xml](https://github.com/VysotskiySS/XML/blob/main/bug_report.xml "открыть bug_report.xml") -> Edit this file
+`XML ->` [bug_report.xml](https://github.com/VysotskiySS/XML/blob/main/bug_report.xml "открыть bug_report.xml") `-> Edit this file`
 
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 ```
