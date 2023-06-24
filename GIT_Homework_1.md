@@ -42,23 +42,23 @@ git commit -m "comment"
 git push
 ```
  8. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
-```
+
 nano [new.txt](https://github.com/VysotskiySS/TXT/blob/main/new.txt "открыть new.txt")
-```
+
  8. Отправить изменения на внешний репозиторий.
 ```
 git commit -am "change file new.txt" && git push
 ```
  9. Создать файл preferences.txt
-```
+
 nano [preferences.txt](https://github.com/VysotskiySS/TXT/blob/main/preferences.txt "открыть preferences.txt")
-```
+
  10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
 
  11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
-```
+
 nano [skills.txt](https://github.com/VysotskiySS/TXT/blob/main/skills.txt "открыть skills.txt")
-```
+
  12. Сделать коммит в одну строку.
 ```
 git add . && git commit -m "comment"
