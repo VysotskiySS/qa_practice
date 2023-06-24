@@ -44,15 +44,15 @@ curl http://162.55.220.72:5005/get_method?'name=Sergey&age=32'
 
 [Скрипт](https://github.com/VysotskiySS/qa_practice/blob/main/s1.sh)
 
-Termial. HW_2
+### Termial. HW_2
  1. Сделать папку dir_1
-mkdir dir_1
+```mkdir dir_1```
 
  2. Зайти в папку dir_1
-cd dir_1
+``cd dir_1``
 
  3. Создать папку inner_dir_1
-mkdir inner_dir_1
+`mkdir inner_dir_1`
 
  4. Посмотреть где ты находишься
 pwd
