@@ -1,4 +1,4 @@
-## GIT Homework 1
+## GIT Homework
 
 Для выполнения задания у вас должен быть установлен для Windows - GitBash.
 Создан аккаунт в GitHub
@@ -259,7 +259,7 @@ git push --all
 ```
 git checkout Bug_reports
 ```
-`nano` (bug_report.txt)[]
+`nano` (bug_report.txt)[https://github.com/VysotskiySS/git_hw_2/blob/main/bug_report.txt]
 
 4. Запушить структуру багрепорта на внешний репозиторий
 ```
@@ -278,7 +278,7 @@ git push
 ```
 git checkout CheckLists
 ```
-`nano` (check_list.txt)[]
+`nano` (check_list.txt)[https://github.com/VysotskiySS/git_hw_2/blob/main/check_list.txt]
 
 8. Запушить структуру на внешний репозиторий
 ```
@@ -286,7 +286,7 @@ git add . && git commit -m "add check_list.txt" && git push
 ```
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
 ```
-https://github.com/VysotskiySS -> repositories -> git_hw_2 -> contribute -> open pull request -> create pull request
+[https://github.com/VysotskiySS -> repositories -> git_hw_2 -> contribute -> open pull request -> create pull request](https://github.com/VysotskiySS -> repositories -> git_hw_2 -> contribute -> open pull request -> create pull request -> Merge pull request -> Confirm merge)https://github.com/VysotskiySS -> repositories -> git_hw_2 -> contribute -> open pull request -> create pull request -> Merge pull request -> Confirm merge
 ```
 10. Синхронизировать Внешнюю и Локальную ветки Main
 ```
