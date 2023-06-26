@@ -235,3 +235,60 @@ Commit changes
 ```
 git pull
 ```
+### GitHub. HW_2
+```
+git clone https://github.com/VysotskiySS/git_hw_2
+cd git_hw_2
+```
+1. На локальном репозитории сделать ветки для:
+- Postman
+- Jmeter
+- CheckLists
+- Bag Reports
+- SQL
+- Charles
+- Mobile testing
+```
+git branch Postman && git branch Jmeter && git branch CheckLists && git branch Bug_Reports && git branch SQL && git branch Charles && git branch Mobile_testing
+```
+2. Запушить все ветки на внешний репозиторий
+```
+git push --all
+```
+3. В ветке Bug_Reports сделать текстовый документ со структурой баг репорта
+```
+git checkout Bug_reports
+```
+`nano` (bug_report.txt)[]
+
+4. Запушить структуру багрепорта на внешний репозиторий
+```
+git config push.autoSetupRemote true
+git add . && commit -m "add bug_report.txt" && git push
+```
+5. Вмержить ветку Bag Reports в Main
+```
+git checkout main && git merge Bug_reports
+```
+6. Запушить main на внешний репозиторий.
+```
+git push
+```
+7. В ветке CheckLists набросать структуру чек листа.
+```
+git checkout CheckLists
+```
+`nano` (check_list.txt)[]
+
+8. Запушить структуру на внешний репозиторий
+```
+git add . && git commit -m "add check_list.txt" && git push
+```
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+```
+https://github.com/VysotskiySS -> repositories -> git_hw_2 -> contribute -> open pull request -> create pull request
+```
+10. Синхронизировать Внешнюю и Локальную ветки Main
+```
+git pull --all
+```
