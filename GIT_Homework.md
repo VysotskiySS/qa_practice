@@ -259,7 +259,7 @@ git push --all
 ```
 git checkout Bug_reports
 ```
-`nano` (bug_report.txt)[https://github.com/VysotskiySS/git_hw_2/blob/main/bug_report.txt]
+`nano` [bug_report.txt](https://github.com/VysotskiySS/git_hw_2/blob/main/bug_report.txt)
 
 4. Запушить структуру багрепорта на внешний репозиторий
 ```
@@ -278,7 +278,7 @@ git push
 ```
 git checkout CheckLists
 ```
-`nano` (check_list.txt)[https://github.com/VysotskiySS/git_hw_2/blob/main/check_list.txt]
+`nano` [check_list.txt](https://github.com/VysotskiySS/git_hw_2/blob/main/check_list.txt)
 
 8. Запушить структуру на внешний репозиторий
 ```
