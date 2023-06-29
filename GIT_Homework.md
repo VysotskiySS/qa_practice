@@ -285,9 +285,9 @@ git checkout CheckLists
 git add . && git commit -m "add check_list.txt" && git push
 ```
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
-```
+
 [https://github.com/VysotskiySS -> repositories -> git_hw_2 -> contribute -> open pull request -> create pull request](https://github.com/VysotskiySS -> repositories -> git_hw_2 -> contribute -> open pull request -> create pull request -> Merge pull request -> Confirm merge)https://github.com/VysotskiySS -> repositories -> git_hw_2 -> contribute -> open pull request -> create pull request -> Merge pull request -> Confirm merge
-```
+
 10. Синхронизировать Внешнюю и Локальную ветки Main
 ```
 git pull --all
